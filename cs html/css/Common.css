@@ -1,0 +1,116 @@
+/* eto ung pinaka toktok na header*/
+h2{
+	text-align:center;
+	padding:20px;
+	margin-bottom:0%;
+	margin-top:5%;
+	font-size:600%;
+	font-family:Exon;
+	color:rgb(255, 229, 180);
+	text-shadow:2px 3px 5px#000;
+	}
+p{
+	display:block;
+	text-decoration:none;
+	padding:15px 30px;
+	margin:1px;
+	color:white;
+	font-family:simple;
+	font-size:140%;
+	text-shadow:1px 2px 10px#000;
+	}
+/* ung .info para sa description ng sarili*/
+p.info{
+	font-family:simple;
+	padding: 15px;
+	text-align: center;
+	text-decoration:none;
+	background-color:rgb(0,0,0,0.5);
+	color:white;
+	font-size:150%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:2%;
+	}
+/* BG picture ng web */
+body{
+	height:350px;
+	background-image:url("../img/facilities.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	}
+/* Nav */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:rgb(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	width:100%;
+}
+li{
+	float:left;
+	}
+li a {
+	display:block;
+	text-decoration:none;
+	padding:15px 30px;
+	margin:1px;
+	color:white;
+	font-family:smooth;
+	font-size:20px;
+	}
+/* nag papakita ng current page */
+li a:hover:not(.active){
+	background-color:rgb(155,155,155,0.5);
+	}
+/* ayos ng picture at ng descrition non */
+div.gallery {
+	padding:5px;
+	margin:auto;
+	float:left;
+	width:400px;
+	}
+div.gallery img {
+	width: 100%;
+	height: 240px;
+	}
+div.descrip{
+	font-family:smooth;
+	padding: 15px;
+	text-align: center;
+	text-decoration:none;
+	background-color:rgb(0,0,0,0.5);
+	color:white;
+	font-size:150%;
+	}
+.active{
+	background-color:rgb(50,50,125,0.6);
+	}
+/* text designs in short mga fonts */
+@font-face{
+	font-family:Rainy;
+	src:url(../fonts/Rainyfont.ttf);
+	}
+@font-face{
+	font-family:Exon;
+	src:url(../fonts/Exon.otf);
+	}
+@font-face{
+	font-family:smooth;
+	src:url(../fonts/DailyRainy.ttf);
+	}
+@font-face{
+	font-family:Mallow;
+	src:url(../fonts/Mallow.otf);
+	}
+@font-face{
+	font-family:Simple;
+	src:url(../fonts/BasicFont.ttf);
+	}

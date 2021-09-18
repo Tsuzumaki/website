@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Reservation</title>
+<meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="../css/Reservation.css">
+</head>
+<body>
+<!--- nav bar ---->
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../Facilities/Facilities.html">Facilities</a></li>
+<li><a href="../Room_rate/Room_rate.html">Room rate</a></li>
+<li><a href="../About_us/About_us.html">About us</a></li>
+<li style="float:right;"><a href="Reservation.html" class="active">Reservation</a></li>
+</ul>
+<header>Register</header>
+<h2>Fill up the Reservation form Thanks! (๑˃̵ᴗ˂̵)ﻭ</h2>
+<!--- mismong form --->
+<form>
+<div class="signin">
+<section>Name</section>
+<input type="text" placeholder="Your Name" name="Name">
+<section>Number of Nights</section>
+<select>
+<option value="" disabled selected hidden>Number of nights</option>
+<option value="1n">1 nights</option>
+<option value="2n">2 nights</option>
+<option value="3n">3 nights</option>
+<option value="4n">4 nights</option>
+<option value="5n">5 nights</option>
+<option value="6n">6 nights</option>
+</select>
+<section>Number of Guest</section>
+<select>
+<option value="" disabled selected hidden>How many people</option>
+<option value="1p">1 people</option>
+<option value="2p">2 people</option>
+<option value="3p">3 people</option>
+<option value="4p">4 people</option>
+<option value="5p">5 people</option>
+<option value="6p">6 people</option>
+</select>
+<section>Number of room</section>
+<select>
+<option value="" disabled selected hidden>Number of rooms</option>
+<option value="1r">1 room</option>
+<option value="2r">2 room</option>
+</select>
+<section>Arrival date</section>
+<input type="date" placeholder="arrivaldate" name="Birthdate"></input>
+<section>Contact Number</section>
+<input type="tel" maxlength="11" size="11" placeholder="09*********" name="Number"></input>
+<section>Email Address</section>
+<input type="Address" placeholder="Sample@gmail.com" name="Email">
+<section>Type of payment</section>
+<!--- using table para maayos ung pwesto ng mga radio ---->
+<table>
+<tr>
+<td style="color:white; font-family:simple; display:flex; font-size:20px;">
+<input type="radio"	name="payment" style="margin-right:10px;">Cash
+<input type="radio"	name="payment" style="margin-right:10px; margin-left:15px;">Checks
+<input type="radio"	name="payment" style="margin-right:10px; margin-left:15px;">Debit card
+<input type="radio"	name="payment" style="margin-right:10px; margin-left:15px;">Credit card
+<input type="radio"	name="payment" style="margin-right:10px; margin-left:15px;">Other
+</td>
+</tr>
+</table>
+<!--- submit botton na wala pang script ---->
+<input type="Submit" value="Submit" name="Submit">
+</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,107 @@
+
+/* BG picture ng website */
+body{
+	height:350px;
+	background-image:url("../img/Summer.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	margin:0px;
+	padding:0px;
+	overflow:auto;
+	}
+/* Nav */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:rgb(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	width:100%;
+}
+li{
+	float:left;
+	}
+li a {
+	display:block;
+	text-decoration:none;
+	padding:15px 30px;
+	margin:1px;
+	color:white;
+	font-family:smooth;
+	font-size:20px;
+	}
+/* table designs */
+table{
+	border:2px solid  #FFCC66;
+	color:rgb(255, 229, 180);
+	background-color:rgb(255,255,255, 0.5);
+	border-collapse:collapse;
+	padding:10px;
+	font-size:125%;
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+	margin-top:10%;
+}
+th{
+	border:2px solid  #FFCC66;
+	color:black;
+	border-collapse:collapse;
+	padding:10px;
+	font-size:130%;
+	font-family:Exon;
+	}
+td{
+	border:2px solid  #FFCC66;
+	color:black;
+	border-collapse:collapse;
+	padding:10px;
+	text-align:center;
+	font-family:simple;
+	font-size:150%;
+	}
+/* horizontal line design */
+hr{
+	margin:0%;
+	padding:0%;
+	border-top:2px solid rgb(204, 204, 255,);
+	}
+/* nag papakita ng current page */
+li a:hover:not(.active){
+	background-color:rgb(155,155,155,0.5);
+	}
+.active{
+	background-color:rgb(50,50,125,0.6);
+	}
+/* pampaayos ng img */
+img{
+	padding:5px;
+	margin:auto;
+	float:left;
+	width: 100%;
+	height: 120px;
+	}
+/* text designs in short mga fonts */
+@font-face{
+	font-family:Rainy;
+	src:url(../fonts/Rainyfont.ttf);
+	}
+@font-face{
+	font-family:Exon;
+	src:url(../fonts/Exon.otf);
+	}
+@font-face{
+	font-family:smooth;
+	src:url(../fonts/DailyRainy.ttf);
+	}
+@font-face{
+	font-family:Mallow;
+	src:url(../fonts/Mallow.otf);
+	}
+@font-face{
+	font-family:Simple;
+	src:url(../fonts/BasicFont.ttf);
+	}
